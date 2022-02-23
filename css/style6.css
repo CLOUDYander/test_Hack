@@ -8,6 +8,11 @@ font-family: 'Open Sans', sans-serif;
 
 body{
 height: 100%;
+width: 100%;
+}
+
+body{
+height: 100%;
 display: flex;
 flex-direction: column;
 background-size: 100%;
@@ -49,6 +54,14 @@ color: #ffffff;}
 
 input{
 margin-left: 10%;
+}
+
+.selection
+{
+width: 130%;
+height: 100vh;
+overflow: scroll;
+overflow-x: hidden;
 }
 
 #main_menu{
@@ -97,7 +110,7 @@ margin-top: 5px;
 #but_enter{
 margin-top: 5%;
 margin-left: 4%;
-width: 120%;
+width: 90%;
 height: 175px;
 background: #303030;
 backdrop-filter: blur(100px);
@@ -118,7 +131,6 @@ padding: 0;
     height: 200px;
     background: rgba(48, 48, 48, 0.7);
     z-index: 3;
-    margin-top: 9.1%;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
         }
@@ -128,7 +140,7 @@ padding: 0;
         }
 
 #banner{
-    width: 1200px;
+    width: 90%;
     margin-top: 5%;
     margin-left: 5%;
 }
