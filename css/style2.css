@@ -20,7 +20,7 @@ align-items: center;
 display: flex;
 width:316.69px;
 height: 270px;
-margin-top: 15%;
+margin-top: 10%;
 }
 
 .step_and_slid
@@ -37,7 +37,7 @@ width: 100%;
 display: flex;
 align-items: center;
 height: 25px;
-margin-top: 20%;
+margin-top: 15%;
 margin-bottom: 5%;
 margin-left: 50px;
 font-family: 'Open Sans', sans-serif;
@@ -62,7 +62,7 @@ color: #FFFFFF;
 
 #slide{
     position:absolute;
-    margin-top: 75px;
+    margin-top: 50px;
     display: flex;
     width: 105px;
     height: 105px;  
@@ -71,7 +71,7 @@ color: #FFFFFF;
 #line {
     width: 280px;
     height: 0px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     border: 1px solid #FFFFFF;   
 }
 

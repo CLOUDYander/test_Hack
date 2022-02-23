@@ -17,7 +17,7 @@ background-color: #222222;
 
 #main_text{
 margin-left: 27%;
-margin-top: 30%;
+margin-top: 15%;
 font-size: 80px;
 color: #3EE28A;
 font-family: 'Open Sans', sans-serif;
@@ -114,6 +114,6 @@ border-radius: 10px;
     font-weight: normal;
     font-size: 38px;
     text-align: center;
-    
+    margin-bottom: 8%;
     color: #FFFFFF;
 }

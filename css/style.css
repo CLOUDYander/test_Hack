@@ -9,7 +9,7 @@
 }
 
 body{
-    height: 1280px;
+    height: 100%;
     background-color: #303030;
     outline:none;
     border: none;
@@ -35,11 +35,15 @@ body{
     color: #3EE28A;
     }
     #year{
-    
+    display:flex;
+    justify-content: center;
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
+    margin-top: 90%;
+    margin-bottom: 5%;
     
     text-align: center;
     
