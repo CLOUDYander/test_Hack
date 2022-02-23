@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    border: none;
+}
+.change-tree > button{
+    background-color: #22222200;
+}
+
+p{
+    font-family: 'Open sans';
+}
+body{
+background-color: #222222;
+display: flex;
+flex-direction: column;
+}
+
+.map{
+    position: absolute;
+    height: 1980px;
+    width: 720px;
+    z-index: 1;
+}
+.map > iframe{
+    height: 1600px;
+    width: 1000px;
+}
+
+.botton-panel{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1010px;
+    height: 200px;
+    background-color: #303030;
+    z-index: 3;
+    margin-top: 100PX;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.botton-panel > a > img{
+    height: 80px;
+    width: 80px;
+}
+.bg-tree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: #17382c88;
+    z-index: 2;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+.bg-tree:active{
+    background-color: #17382c;
+}
+.bg-tree > img{
+    height: 180px;
+    width: 140px;
+}
+.bg-tree > p{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.658);
+    transition: 0.5s ease;
+}
+.bg-tree > p{
+    color: rgba(255, 255, 255);
+}
+.change-tree{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.sit{
+    z-index: 4;
+    width: 800px;
+    height: 120px;
+    background-color: rgba(74, 255, 74, 0.534);
+    margin-TOP: 1050px;
+    margin-left: 85px;
+    border: none;
+    border-radius: 40px;
+    transition: 0.5s ease;
+}
+.sit:active{
+    background-color: rgba(74, 255, 74);
+}
+.sit > p{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.671);
+    transition: 0.5s ease;
+}
+.sit > p:active{
+    color: rgba(255, 255, 255);
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    border: none;
+}
+.change-tree > button{
+    background-color: #22222200;
+}
+
+p{
+    font-family: 'Open sans';
+}
+h1{
+    font-family: 'Open sans';
+}
+body{
+background-color: #222222;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+input::-moz-placeholder { color: rgb(255, 255, 255); }
+input::-webkit-input-placeholder { color: rgb(235, 235, 235);
+outline: none; 
+}
+button{
+    border: none;
+    background-color: #22222200;
+}
+
+.botton-panel{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1010px;
+    height: 200px;
+    background-color: #303030;
+    z-index: 3;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.botton-panel > a > img{
+    height: 80px;
+    width: 80px;
+}
+.flex-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.flex-name > h1{
+    color: white;
+    font-size: 50px;
+}
+.flex-name > p{
+    font-size: 30px;
+    color: grey;
+}
+.tech-consult-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    width: 1000px;
+    background-color: #303030;
+}
+.tech-consult-panel > img{
+    height: 120px;
+    width: 120px;
+    margin-left: 40px;
+}
+.cont-chat{
+    display: flex;
+    flex-direction: column;
+    height: 1230px;
+    width: 850px;
+}
+.text-area-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.text-area-panel > input{
+    height: 100px;
+    width: 700px;
+    font-size: 50px;
+    font-family: 'Open sans';
+    border: none;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 30px;
+    padding: 0 30px;
+    color: white;
+}
+.text-area-panel > button > img{
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+}
+
+.tech-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    transition: 0.5s ease;
+}
+
+.he-text-message{
+    height: max-content;
+    width: 600px;
+    background-color: rgb(105, 105, 105);
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.he-text-message > .he-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+.flex-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.flex-img > img{
+    height: 100px;
+    width: 100px;
+}
+
+.me-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+    transition: 0.5s ease;
+}
+
+.me-text-message{
+    height: max-content;
+    width: 600px;
+    background-color: rgb(27, 212, 3);
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.me-text-message > .me-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+.flex-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.time{
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
