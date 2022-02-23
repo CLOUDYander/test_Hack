@@ -23,10 +23,23 @@ height: 270px;
 margin-top: 15%;
 }
 
+.step_and_slid
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+align-self: start;
+}
+
 #step1{
+justify-content: center;
+width: 100%;
+display: flex;
+align-items: center;
 height: 25px;
 margin-top: 20%;
-margin-bottom: 5%;  
+margin-bottom: 5%;
+margin-left: 50px;
 font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -39,18 +52,20 @@ color: #FFFFFF;
     
 }
 
-.step_and_slid
-{
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 100%;
-}
-
 .slide
 {
     display: flex;
-    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 50px;
+}
+
+#slide{
+    position:absolute;
+    margin-top: 75px;
+    display: flex;
+    width: 105px;
+    height: 105px;  
 }
 
 #line {
