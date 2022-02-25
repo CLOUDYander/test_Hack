@@ -37,7 +37,7 @@ body {
 
 .botton-panel {
   position: absolute;
-  top: 91.5%;
+  top: 93%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
