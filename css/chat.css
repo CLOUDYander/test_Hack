@@ -14,10 +14,10 @@
 }
 
 p {
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
 }
 body {
   background-color: #222222;
@@ -98,7 +98,7 @@ button {
   height: 100px;
   width: 700px;
   font-size: 50px;
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
   border: none;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 30px;

@@ -14,7 +14,7 @@
 }
 
 p {
-  font-family: "Open sans";
+  font-family: "Open Sans", sans-serif;
 }
 body {
   background-color: #222222;
@@ -74,7 +74,7 @@ body {
   width: 140px;
 }
 .bg-tree > p {
-  font-size: 40px;
+  font-size: 32px;
   color: rgba(255, 255, 255, 0.658);
   transition: 0.5s ease;
 }
@@ -104,7 +104,7 @@ body {
   background-color: rgba(74, 255, 74);
 }
 .sit > p {
-  font-size: 60px;
+  font-size: 52px;
   color: rgba(255, 255, 255, 0.671);
   transition: 0.5s ease;
 }
