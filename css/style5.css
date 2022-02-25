@@ -1,119 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    outline:none;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
 }
-body{
-height: 100%;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-background-size: 100%;
-background-color: #222222;
-}
-
-#main_text{
-margin-left: 27%;
-margin-top: 15%;
-font-size: 80px;
-color: #3EE28A;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-color: #3EE28A;
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-size: 100%;
+  background-color: #222222;
 }
 
-#step{
-margin-top: 15%;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 25px;
-
-text-align: center;
-
-color: #FFFFFF;
+#main_text {
+  margin-left: 27%;
+  margin-top: 15%;
+  font-size: 80px;
+  color: #3ee28a;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #3ee28a;
 }
 
-#line{
-    width: 380px;
-    margin-left: 31%;
-    margin-top: 10%; 
-    border: 1px solid #3EE28A;
+#step {
+  margin-top: 15%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #ffffff;
 }
 
-#name{
-margin-top: 10%;
-margin-bottom: 2%;
-font-family: 'Open Sans', sans-serif;
-font-size: 48px;
-color: #FFFFFF;
+#line {
+  width: 380px;
+  margin-left: 31%;
+  margin-top: 10%;
+  border: 1px solid #3ee28a;
 }
 
-#name_input, #name_input2, #name_input3, #name_input2_2 {
-position: absolute;
-width: 88%;
-height: 100px;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-text-align:center;
-color: rgba(255, 255, 255, 0.781);
-background: rgba(255, 255, 255, 0.3);
-
-
-border-radius: 10px;
+#name {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
 }
 
-#enter_with_help{
-    font-size: 40px;
-    margin-top: 5%;
-    color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
+#name_input,
+#name_input2,
+#name_input3,
+#name_input2_2 {
+  position: absolute;
+  width: 88%;
+  height: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.781);
+  background: rgba(255, 255, 255, 0.3);
 
-
-color: #FFFFFF;
+  border-radius: 20px;
 }
 
-button{
-    margin-left: 5%;
-    margin-top: 2%;
-    background: none;
-    outline: none !important;
+#enter_with_help {
+  font-size: 40px;
+  margin-top: 5%;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #ffffff;
 }
 
-img{
-    width: 74px;
-    height: 74px;
-    outline:none;
+button {
+  margin-left: 5%;
+  margin-top: 2%;
+  background: none;
+  outline: none !important;
 }
 
-#but_reg{
-margin-top: 10%;
-margin-left: 4%;
-width: 900px;
-height: 100px;
-background: rgba(62, 226, 138, 0.5);
-backdrop-filter: blur(100px);
-color: #FFFFFF;
-font-size: 45px;
-border-radius: 10px;
+img {
+  width: 74px;
+  height: 74px;
+  outline: none;
 }
 
-#license{
-    margin-top: 2%;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    text-align: center;
-    margin-bottom: 8%;
-    color: #FFFFFF;
+#but_reg {
+  margin-top: 10%;
+  margin-left: 4%;
+  width: 900px;
+  height: 100px;
+  background: rgba(62, 226, 138, 0.5);
+  color: #ffffff;
+  font-size: 45px;
+  border-radius: 20px;
+}
+
+#license {
+  margin-top: 2%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 8%;
+  color: #ffffff;
 }

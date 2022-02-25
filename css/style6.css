@@ -1,142 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-*{
-margin: 0;
-padding: 0;
-outline:none;
-font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@media only screen and (max-width: 480px) {
+  /* This CSS will be applied only to phones and other small devices. */
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
 }
 
-
-body{
-height: 100%;
-display: flex;
-flex-direction: column;
-background-size: 100%;
-background-color: #222222;
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+  background-color: #222222;
+  overflow-x: hidden;
 }
 
-header{
-    height: 150px;
-    width: 1280px;
-    display: flex;
-    flex-direction: row;
+header {
+  height: 200px;
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
 }
-#qr_photo{
-    margin-top: 20px;
-    height: 72px;
-    width: 72px;
-}
-
-#qr_but{
-    margin-top: 3%;
-    margin-left: 5%;
+#qr_photo {
+  margin-top: 5px;
+  height: 72px;
+  width: 72px;
 }
 
-#input
-{
-width:55%;
-height: 100px;
-margin-left: 57px;
-margin-top: 4%;
-background: rgba(255, 255, 255, 0.5);
-border-radius: 200px;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 44px;
-text-align:left ;
-padding-left: 24px;
-color: #ffffff;}
-
-input{
-margin-left: 10%;
+#qr_but {
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
-.selection
-{
-width: 130%;
-height: 100vh;
-overflow: scroll;
-overflow-x: hidden;
+#input {
+  width: 55%;
+  height: 100px;
+  margin-left: 57px;
+  margin-top: 4%;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  text-align: left;
+  outline: none;
+  padding-left: 24px;
+  color: #ffffff;
 }
 
-#main_menu{
-display: flex;
-width: 1160px;
-height: 500px;
-margin-left: 5%;
-margin-top: 54px;
-flex-direction: row;
-background: #303030;
-border-radius: 10px;
+input {
+  margin-left: 10%;
 }
 
-#level{
-width: 520px;
-height: 520px;
+.selection {
+  width: 130%;
+  min-height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
-#main_text{
-flex-direction: column;
-color: #ffffff;
-margin-top: 0%;
+#main_menu {
+  display: flex;
+  width: 1160px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: 54px;
+  flex-direction: row;
+  background: #303030;
+  border-radius: 10px;
 }
 
-#main_step{
-margin-top: 10%;
-font-size: 60px ;
+#level {
+  width: 520px;
+  height: 520px;
 }
 
-#main_photo{
-display: flex;
-width: 1160px;
-height: 500px;
-margin-left: 5%;
-margin-top: 30px;
-flex-direction: row;
+#main_text {
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 0%;
 }
 
-#photo{
-width: 500px;
-height: 500px;
-margin-left: 5%;
-margin-top: 5px;
+#main_step {
+  margin-top: 10%;
+  font-size: 60px;
 }
 
-#but_enter{
-margin-top: 5%;
-margin-left: 4%;
-width: 90%;
-height: 175px;
-background: #303030;
-backdrop-filter: blur(100px);
-color: #FFFFFF;
-font-size: 60px;
-border-radius: 50px;
-outline:none;
-padding: 0;
+#main_photo {
+  display: flex;
+  width: 1160px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: 30px;
+  flex-direction: row;
 }
 
-.botton-panel{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 130%;
-    height: 200px;
-    background: rgba(48, 48, 48, 0.7);
-    z-index: 3;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-        }
-    .botton-panel > a > img{
-    height: 80px;
-    width: 80px;
-        }
+#photo {
+  width: 500px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: 5px;
+}
 
-#banner{
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 5%;
+#but_enter {
+  margin-top: 5%;
+  margin-left: 4%;
+  width: 90%;
+  height: 175px;
+  background: #303030;
+  color: #ffffff;
+  font-size: 60px;
+  border-radius: 20px;
+}
+
+.botton-panel {
+  position: relative;
+  top: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 130%;
+  height: 150px;
+  background: rgba(48, 48, 48, 0.3);
+  z-index: 3;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.botton-panel > a > img {
+  height: 70px;
+  width: 70px;
+}
+
+#banner {
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
