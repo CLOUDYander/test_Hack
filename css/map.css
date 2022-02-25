@@ -89,11 +89,12 @@ body {
   margin-left: 20px;
 }
 .sit {
+  position: absolute;
   z-index: 4;
   width: 80%;
   height: 120px;
   background-color: rgba(74, 255, 74, 0.534);
-  margin-top: 100%;
+  top: 80%;
   margin-left: 85px;
   border: none;
   border-radius: 40px;
